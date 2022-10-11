@@ -3,6 +3,7 @@ nav a{
     background-color: crimson;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -13,7 +14,7 @@ nav a{
 main section{
     text-align: center;
 }
-id ::content{
+id content{
     max-width: 1600px;
 }
 #content{
@@ -21,9 +22,6 @@ id ::content{
 }
 #background{
     height: 725px;
-}
-body {
-    background-color: #fcfbfb; 
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -36,6 +34,7 @@ nav a:hover {
     background-color: brown;
     color: aliceblue;
     text-decoration: none;
+    padding: 15px 30px;
 }
 .book:hover, .join:hover{
     background-color: burlywood;
@@ -44,11 +43,9 @@ nav a:hover {
 .background{
     background-color: aquamarine;
 }
-.msg{
-    background-color: bisque;
-}
 footer{
     background-color: aqua;
+    padding: 25px 50px;
 }
 .home-title{
     background-color: cadetblue;
@@ -57,6 +54,7 @@ footer{
 h4{
     background-color: aquamarine;
     color: azure;
+    
 }
 .msg h2{
     background-color: aqua;
@@ -65,6 +63,7 @@ h4{
 .msg p{
     background-color: blueviolet;
     color: burlywood;
+    padding-bottom: 15px;
 }
 footer h3{
     background-color: cadetblue;
@@ -81,6 +80,7 @@ footer a:hover{
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo{
     width: 80px;
@@ -93,4 +93,33 @@ footer p {
 }   
 footer p a:hover {
     text-decoration: underline;
-}    
+}
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+}
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding: 35px;
+  }
+  
+body {
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
